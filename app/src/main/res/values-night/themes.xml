@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyQuizApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+         <item name="colorPrimary">@color/blue1</item>
+    </style>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <!-- Customize other theme attributes -->
+        <item name="colorPrimary">#69B9C4</item>
+        <item name="colorPrimaryDark">#4D94A6</item>
+        <item name="colorAccent">#7D988F</item>
+        <item name="colorControlHighlight">#A3B9B4</item>
+    </style>
+</resources>

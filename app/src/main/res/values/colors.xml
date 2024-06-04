@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue1">#040A12</color>
+    <color name="blue2">#0D4462</color>
+    <color name="blue3">#C8161C27</color>
+    <color name="blue4">#16263E</color>
+    <color name="blue5">#1696DB</color>
+    <color name="blue9">#0A82C2</color>
+    <color name="blue10">#DF171F2C</color>
+    <color name="blue6">#C8080D14</color>
+    <color name="blue7">#0F1317</color>
+    <color name="blue8">#0F2B42</color>
+    <color name="textColor1">#1696DB</color>
+    <color name="textColor2">#59696B</color>
+    <color name="textHint1">#272E35</color>
+    <color name="customRippleColor">#FF4081</color>
+</resources>

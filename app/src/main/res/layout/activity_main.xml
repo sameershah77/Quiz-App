@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue1"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:id="@+id/app_bar"
+        app:fabAlignmentMode="center"
+        app:fabCradleMargin="12dp"
+        android:backgroundTint="@color/blue4"
+        app:fabAnchorMode="cradle"
+        app:fabCradleVerticalOffset="0dp"
+        app:fabCradleRoundedCornerRadius="40dp">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottom_nav"
+            android:background="@android:color/transparent"
+            app:labelVisibilityMode="labeled"
+            android:layout_marginEnd="20dp"
+            app:itemIconTint="@color/bottom_nav_icon_color"
+            app:itemTextColor="@color/bottom_nav_icon_color"
+            app:itemActiveIndicatorStyle="@android:transition/fade"
+            app:menu="@menu/bottom_nav"
+            />
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/nav_spin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#16263E"
+        android:src="@drawable/gem"
+        app:tint="@color/blue5"
+        app:elevation="4dp"
+        android:outlineSpotShadowColor="@color/blue5"
+        app:maxImageSize="30dp"
+        app:layout_anchor="@id/app_bar"
+        app:shapeAppearance="@style/Widget.MaterialComponents.Tooltip"
+        app:layout_anchorGravity="center"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
